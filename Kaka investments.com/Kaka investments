@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kaka Investments | Quality Products</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#070707;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#080808;
+    border-bottom:1px solid #c9a227;
+    padding:15px 7%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#d6a62b;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.logo span{
+    display:block;
+    font-size:11px;
+    letter-spacing:4px;
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#e6bd45;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:60px 20px;
+    background:
+    radial-gradient(circle at center,#29200b 0,#070707 55%);
+}
+
+.hero h1{
+    font-size:clamp(45px,9vw,90px);
+    color:#d6a62b;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:650px;
+    margin:auto;
+    color:#bbb;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 25px;
+    background:#d6a62b;
+    color:#050505;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:4px;
+}
+
+.btn:hover{
+    background:#f0ca5b;
+}
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.title h2{
+    color:#d6a62b;
+    font-size:40px;
+}
+
+.title p{
+    color:#aaa;
+}
+
+.about{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.about p{
+    color:#bbb;
+    margin-bottom:20px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.card{
+    background:#111;
+    border:1px solid #3b2d0c;
+    padding:35px 25px;
+    text-align:center;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-7px);
+    border-color:#d6a62b;
+}
+
+.card .icon{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    color:#d6a62b;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#aaa;
+}
+
+.contact{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.contact p{
+    margin:15px;
+    color:#ccc;
+}
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#20c063;
+    color:white;
+    padding:14px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 5px 20px #000;
+    z-index:2000;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    border-top:1px solid #30260d;
+    color:#888;
+}
+
+@media(max-width:700px){
+
+    header{
+        padding:15px 5%;
+    }
+
+    nav a{
+        margin-left:8px;
+        font-size:11px;
+    }
+
+    .products{
+        grid-template-columns:1fr;
+    }
+
+    section{
+        padding:60px 6%;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+KAKA
+<span>INVESTMENTS</span>
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+<div>
+
+<p style="color:#d6a62b;letter-spacing:4px;">
+WELCOME TO
+</p>
+
+<h1>KAKA<br>INVESTMENTS</h1>
+
+<h2>Quality Products. Reliable Service.</h2>
+
+<p>
+We deal in electronic gadgets, liquid soap and poultry products,
+including chicken. Our goal is to provide quality products and
+reliable customer service.
+</p>
+
+<a class="btn"
+href="https://wa.me/256762461903?text=Hello%20Kaka%20Investments%2C%20I%27d%20like%20to%20ask%20about%20your%20products."
+target="_blank">
+CHAT ON WHATSAPP
+</a>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="title">
+
+<h2>About Us</h2>
+
+<p>Who we are</p>
+
+</div>
+
+<div class="about">
+
+<p>
+Kaka Investments is a personal business dealing in electronic
+gadgets, liquid soap and poultry, including chicken.
+</p>
+
+<p>
+We believe good business starts with quality products, honest
+communication and good customer care.
+</p>
+
+<p>
+Our vision is to build a trusted brand known for quality,
+reliability and customer satisfaction.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+<div class="title">
+
+<h2>Our Products</h2>
+
+<p>What we offer</p>
+
+</div>
+
+<div class="products">
+
+<div class="card">
+
+<div class="icon">📱</div>
+
+<h3>Electronic Gadgets</h3>
+
+<p>
+We deal in electronic gadgets and accessories for everyday use.
+Contact us to ask about available products and prices.
+</p>
+
+<a class="btn"
+href="https://wa.me/256762461903?text=Hello%20Kaka%20Investments%2C%20I%27m%20interested%20in%20your%20electronic%20gadgets."
+target="_blank">
+Ask on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🧼</div>
+
+<h3>Liquid Soap</h3>
+
+<p>
+We sell liquid soap for home and everyday cleaning needs.
+Contact us for available quantities and prices.
+</p>
+
+<a class="btn"
+href="https://wa.me/256762461903?text=Hello%20Kaka%20Investments%2C%20I%27m%20interested%20in%20your%20liquid%20soap."
+target="_blank">
+Ask on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">🐔</div>
+
+<h3>Poultry</h3>
+
+<p>
+We deal in poultry, including chickens. Contact us for
+availability and current prices.
+</p>
+
+<a class="btn"
+href="https://wa.me/256762461903?text=Hello%20Kaka%20Investments%2C%20I%27m%20interested%20in%20your%20poultry."
+target="_blank">
+Ask on WhatsApp
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="title">
+
+<h2>Contact Us</h2>
+
+<p>Let's do business</p>
+
+</div>
+
+<div class="contact">
+
+<p>📱 <strong>WhatsApp:</strong> +256 762 461 903</p>
+
+<p>📧 <strong>Email:</strong> fridayfres065@gmail.com</p>
+
+<p>📍 <strong>Location:</strong> Kampala, Uganda</p>
+
+<a class="btn"
+href="https://wa.me/256762461903?text=Hello%20Kaka%20Investments%2C%20I%27d%20like%20to%20make%20an%20inquiry."
+target="_blank">
+MESSAGE US ON WHATSAPP
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 Kaka Investments. All Rights Reserved.
+
+</footer>
+
+
+<a class="whatsapp"
+href="https://wa.me/256762461903?text=Hello%20Kaka%20Investments%2C%20I%27d%20like%20to%20make%20an%20inquiry."
+target="_blank">
+💬 WhatsApp
+</a>
+
+</body>
+</html>
